@@ -116,7 +116,7 @@
 
       <div class= "container row mx-auto">
         <div class="col-md-6 col-lg-4">
-          <div class="card border-0 btn mx-auto" style="width: 18rem;">
+          <div class="card border-0 btn mx-auto" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#modal-1">
             <img src="./assets/produtos-cafe-tradicional.png" class="card-img-top" alt="Xícara de café preto">
             <div class="card-body pt-0 text-center">
               <h3 class="card-text fw-bold h4">Cafés Tradicionais</h3>
@@ -124,7 +124,7 @@
           </div>
         </div>
         <div class="col-md-6 col-lg-4">
-          <div class="card border-0 btn mx-auto" style="width: 18rem;">
+          <div class="card border-0 btn mx-auto" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#modal-2">
             <img src="./assets/produtos-cafe-especial.png" class="card-img-top" alt="Xícara de café especial">
             <div class="card-body pt-0 text-center">
               <h3 class="card-text fw-bold h4">Cafés Especiais</h3>
@@ -132,7 +132,7 @@
           </div>
         </div>
         <div class="col-md-6 col-lg-4">
-          <div class="card border-0 btn mx-auto" style="width: 18rem;">
+          <div class="card border-0 btn mx-auto" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#modal-3">
             <img src="./assets/produtos-vitaminas.png" class="card-img-top" alt="Copos com smoothies e vitaminas diversas">
             <div class="card-body pt-0 text-center">
               <h3 class="card-text fw-bold h4">Smoothies e Vitaminas</h3>
@@ -140,7 +140,7 @@
           </div>
         </div>
         <div class="col-md-6 col-lg-4">
-          <div class="card border-0 btn mx-auto" style="width: 18rem;">
+          <div class="card border-0 btn mx-auto" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#modal-4">
             <img src="./assets/produtos-paes.png" class="card-img-top" alt="Cesta com pães variados">
             <div class="card-body pt-0 text-center">
               <h3 class="card-text fw-bold h4">Pães e Focaccias</h3>
@@ -148,7 +148,7 @@
           </div>
         </div>
         <div class="col-md-6 col-lg-4">
-          <div class="card border-0 btn mx-auto" style="width: 18rem;">
+          <div class="card border-0 btn mx-auto" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#modal-5">
             <img src="./assets/produtos-doces.png" class="card-img-top" alt="Bolo confeitado">
             <div class="card-body pt-0 text-center">
               <h3 class="card-text fw-bold h4">Doces</h3>
@@ -156,7 +156,7 @@
           </div>
         </div>
         <div class="col-md-6 col-lg-4">
-          <div class="card border-0 btn mx-auto" style="width: 18rem;">
+          <div class="card border-0 btn mx-auto" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#modal-6">
             <img src="./assets/produtos-salgados.png" class="card-img-top" alt="Pizza">
             <div class="card-body pt-0 text-center">
               <h3 class="card-text fw-bold h4">Salgados</h3>
@@ -171,6 +171,113 @@
     <section class="banners banner-3 d-flex flex-column justify-content-center text-center">
     </section>
   </main>
+
+  <!-- Modal-1 -->
+  <div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="modalCafesTradicionais" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="modalCafesTradicionais">Cafés Tradicionais</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./assets/produtos-cafe-tradicional.png" class="w-100" alt="Xícara de café preto">
+          <p>O café Serenatto é conhecido por seus blends tradicionais e saborosos, que agradam aos amantes da bebida. Nossos grãos são cuidadosamente selecionados e torrados para produzir um aroma rico e sabor equilibrado.</p>
+          <p>Entre os cafés mais tradicionais da casa, destaca-se o "Café Serenatto", um blend exclusivo de grãos com notas de chocolate e caramelo. Outra opção popular é o "Café Italiano", um café expresso encorpado e intenso. Já o "Café Cappuccino" é uma escolha clássica para quem prefere uma bebida cremosa e suave.</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal-2 -->
+  <div class="modal fade" id="modal-2" tabindex="-2" aria-labelledby="modalCafesEspeciais" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="modalCafesEspeciais">Cafés Especiais</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./assets/produtos-cafe-especial.png" class="w-100" alt="Xícara de café especial">
+          <p>Somos conhecidos também por nossos cafés especiais, que são cuidadosamente preparados com grãos selecionados de alta qualidade e técnicas de preparo precisas.</p>
+          <p>Entre as opções de cafés especiais do Café & Bistrô Serenatto, destacamos o café aeropress, que é preparado com uma técnica de imersão e pressão, resultando em uma bebida de sabor intenso e aroma acentuado. Outra opção popular é o café Hario V60, que é preparado com um filtro de papel em formato de cone e resulta em uma bebida limpa e suave, ressaltando as notas sensoriais dos grãos. Além disso, oferecemos uma variedade de bebidas geladas, como o café gelado, que é preparado com grãos torrados escuros e servido com gelo e leite, resultando em uma bebida refrescante e saborosa.</p>
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal-3 -->
+  <div class="modal fade" id="modal-3" tabindex="-3" aria-labelledby="modalVitaminas" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 fw-bold" id="modalVitaminas">Smoothies e Vitaminas</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./assets/produtos-vitaminas.png" class="w-100" alt="Copos com smoothies e vitaminas diversas">
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal-4 -->
+  <div class="modal fade" id="modal-4" tabindex="-4" aria-labelledby="modalPaes" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 fw-bold" id="modalPaes">Pães e Focaccias</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./assets/produtos-paes.png" class="w-100 alt="Cesta com pães variados">
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal-5 -->
+  <div class="modal fade" id="modal-5" tabindex="-5" aria-labelledby="modalDoces" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 fw-bold" id="modalDoces">Doces</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./assets/produtos-doces.png" class="w-100" alt="Bolo confeitado">
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal-6 -->
+  <div class="modal fade" id="modal-6" tabindex="-6" aria-labelledby="modalCafeSalgados" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 fw-bold" id="modalCafeSalgados">Salgados</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./assets/produtos-salgados.png" class="w-100" alt="Pizza">
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Canvas-1 -->
   <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-1" aria-labelledby="offcanvasRightLabel">
@@ -290,8 +397,8 @@
     </div>
   </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+  crossorigin="anonymous"></script>
 </body>
 </html>
