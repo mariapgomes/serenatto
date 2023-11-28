@@ -4,6 +4,16 @@ body {
   --marrom-claro: #B29463;
   font-family: 'Barlow', sans-serif;
 }
+[data-bs-theme="dark"] {
+  color: white;
+  .nav-link, .card-body, .offcanvas, .accordion-item, .form-select {
+    --bs-nav-link-color: white;
+    --bs-card-color: white;
+    --bs-offcanvas-color: white;
+    --bs-accordion-color: white;
+    --bs-body-color: white;
+  };
+}
 
 input[type=checkbox] {
   border-color: var(--marrom-claro);
