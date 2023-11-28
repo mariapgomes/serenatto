@@ -59,3 +59,18 @@ input[type="checkbox"]:focus {
   box-shadow: none;
   outline: none;
 }
+
+input:focus, select:focus, input[type=range]:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 1px 2px var(--marrom-claro) !important;
+  border: none;
+}
+
+input[type=range]::-webkit-slider-thumb, input[type=range]:focus::-webkit-slider-thumb{
+  background-color: var(--marrom-claro);
+}
+input[type='range']::-webkit-slider-runnable-track {
+  background-color: #404040;
+}
+input[type=range]:focus {
+  box-shadow: none !important
+}
