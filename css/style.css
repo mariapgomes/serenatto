@@ -48,7 +48,7 @@ input[type="checkbox"]:focus {
   border-color: var(--marrom-claro);
 }
 
-.botao-padrao {
+.botao-padrao, .footer-style {
   background-color: var(--marrom-claro) !important;
   color: black !important;
 }
