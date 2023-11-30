@@ -1,0 +1,97 @@
+body {
+  --bege: #E6E0D6;
+  --marrom-escuro: #816D4F;
+  --marrom-claro: #B29463;
+  font-family: 'Barlow', sans-serif;
+  margin-top: 106px;
+  padding: 0 !important;
+}
+[data-bs-theme="dark"] {
+  color: white;
+  .nav-link, .card-body, .offcanvas, .accordion-item, .form-select {
+    --bs-nav-link-color: white;
+    --bs-card-color: white;
+    --bs-offcanvas-color: white;
+    --bs-accordion-color: white;
+    --bs-body-color: white;
+  };
+}
+
+@media (max-width: 322px) {
+  body {
+    margin-top: 97px;
+  }
+  .navbar-brand img {
+    max-width: 200px;
+  }
+}
+
+input[type=checkbox] {
+  border-color: var(--marrom-claro);
+}
+input[type=checkbox]:checked,
+input[type="checkbox"]:focus {
+  background-color: var(--marrom-claro);
+  border-color: var(--marrom-claro);
+  box-shadow: none;
+  outline: none;
+}
+
+.banner-1 {
+  background-image: url(/assets/banner-1.png);
+}
+.banner-2 {
+  background-image: url(/assets/banner-2.png);
+}
+.banner-3 {
+  background-image: url(/assets/banner-3.png);
+}
+.banners {
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.banners-titulo {
+  --bs-bg-opacity: .2
+}
+
+.cards a{
+  background-color: var(--marrom-claro);
+}
+.cards a:hover {
+  background-color: var(--marrom-escuro);
+}
+.cards .card {
+  border-color: var(--marrom-claro);
+}
+
+.botao-padrao, .footer-style {
+  background-color: var(--marrom-claro) !important;
+  color: black !important;
+}
+.botao-padrao:hover, .botao-padrao:focus {
+  background-color: var(--marrom-escuro) !important;
+}
+.botao-padrao:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+input:focus, select:focus, input[type=range]:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 1px 2px var(--marrom-claro) !important;
+  border: none;
+}
+
+input[type=range]::-webkit-slider-thumb, input[type=range]:focus::-webkit-slider-thumb{
+  background-color: var(--marrom-claro);
+}
+input[type='range']::-webkit-slider-runnable-track {
+  background-color: #404040;
+}
+input[type=range]:focus {
+  box-shadow: none !important
+}
