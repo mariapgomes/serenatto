@@ -219,6 +219,28 @@
       | Projeto fictício sem fins comerciais.</p>
   </footer>
 
+  <!-- Botão abrir modal cookies -->
+  <button style="display: none;" id="btnAbrir" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCookies"></button>
+
+  <!-- Modal Cookies-->
+  <article class="modal fade" id="modalCookies" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <header class="modal-header">
+          <h1 class="modal-title fs-5 fw-bold" id="modalLabel">Este site usa Cookies.</h1>
+          <button id="btnFechar" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </header>
+        <section class="modal-body" aria-label="Informação sobre cookies">
+          Armazenamos dados temporariamente para melhorar a sua experiência de navegação e recomendar conteúdo de seu interesse. Ao utilizar nossos serviços, você concorda com tal monitoramento.
+        </section>
+        <footer class="modal-footer">
+          <button type="button" class="btn btn-secondary fw-bold negar" data-bs-dismiss="modal">Negar</button>
+          <button type="button" class="btn botao-padrao fw-bold">Aceitar</button>
+        </footer>
+      </div>
+    </div>
+  </article>
+
   <!-- Modal-1 -->
   <article class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="modalCafesTradicionais" aria-hidden="true">
     <div class="modal-dialog">
