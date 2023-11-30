@@ -1,6 +1,6 @@
 # Serenatto
 
-Landing Page de cafeteria e bistrô fictício, desenvolvido utilizando os recursos do Bootstrap 5, aproveitando ao máximo suas classes e componentes para garantir uma experiência responsiva e visualmente atrativa em diferentes dispositivos, desde desktops até smartphones. Navegue por ele clicando [aqui](). 
+Landing Page de cafeteria e bistrô fictício, desenvolvido utilizando os recursos do Bootstrap 5, aproveitando ao máximo suas classes e componentes para garantir uma experiência responsiva e visualmente atrativa em diferentes dispositivos, desde desktops até smartphones. Navegue por ele clicando [aqui](https://serenatto-mariag.netlify.app/). 
 
 ## Imagens
 ![Prévia do site](previa.png)
